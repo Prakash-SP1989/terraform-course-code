@@ -9,11 +9,17 @@ variable "location" {
   default     = "eastus"
 }
 
-variable "virtual_network_name" {
+variable "vnet_name" {
   description = "The name of the virtual network"
   type        = string
   default     = "vnet1-prakash-tf"
 }
+
+#variable "virtual_network_name" {
+#  description = "The name of the virtual network"
+#  type        = string
+#  default     = "vnet1-prakash-tf"
+#}
 
 variable "vnet_address_space" {
   description = "The address space for the virtual network"
